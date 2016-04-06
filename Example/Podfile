@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'PLFileProccessing_Example', :exclusive => true do
+  pod 'PLFileProccessing', :path => '../'
+end
+
+target 'PLFileProccessing_Tests', :exclusive => true do
+  pod 'PLFileProccessing', :path => '../'
+
+  
+end
