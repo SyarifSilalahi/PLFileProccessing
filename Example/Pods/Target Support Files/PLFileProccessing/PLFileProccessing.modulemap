@@ -1,0 +1,6 @@
+framework module PLFileProccessing {
+  umbrella header "PLFileProccessing-umbrella.h"
+
+  export *
+  module * { export * }
+}

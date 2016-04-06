@@ -1,0 +1,14 @@
+PODS:
+  - PLFileProccessing (0.1.0)
+
+DEPENDENCIES:
+  - PLFileProccessing (from `../`)
+
+EXTERNAL SOURCES:
+  PLFileProccessing:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PLFileProccessing: e41a7478a81a685dc5899abff98bf10665d9342c
+
+COCOAPODS: 0.39.0
