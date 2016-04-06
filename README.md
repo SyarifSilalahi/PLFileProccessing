@@ -22,7 +22,7 @@ pod "PLFileProccessing"
 
 ## Author
 
-Syarif Silalahi, syarif@codigo.id
+Syarif Silalahi, syarif@pistarlabs.com
 
 ## License
 
