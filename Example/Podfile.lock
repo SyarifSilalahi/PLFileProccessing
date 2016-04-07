@@ -1,5 +1,9 @@
 PODS:
-  - PLFileProccessing (0.1.0)
+  - Alamofire (2.0.2)
+  - KVNProgress (2.2.4)
+  - PLFileProccessing (0.1.0):
+    - Alamofire (~> 2.0)
+    - KVNProgress
 
 DEPENDENCIES:
   - PLFileProccessing (from `../`)
@@ -9,6 +13,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  PLFileProccessing: e41a7478a81a685dc5899abff98bf10665d9342c
+  Alamofire: 8edbab00802a752bb5240cc2abe70e7e881488ad
+  KVNProgress: 541edcea5a1fef592aceac8d791a410d38cb499d
+  PLFileProccessing: 2643cc400dcae8b7f1bb11fc843c8ed8d7129af6
 
 COCOAPODS: 0.39.0

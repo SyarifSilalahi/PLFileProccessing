@@ -84,8 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-PLFileProccessing_Tests/Alamofire.framework"
+  install_framework "Pods-PLFileProccessing_Tests/KVNProgress.framework"
   install_framework "Pods-PLFileProccessing_Tests/PLFileProccessing.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-PLFileProccessing_Tests/Alamofire.framework"
+  install_framework "Pods-PLFileProccessing_Tests/KVNProgress.framework"
   install_framework "Pods-PLFileProccessing_Tests/PLFileProccessing.framework"
 fi

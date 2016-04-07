@@ -9,15 +9,14 @@
 Pod::Spec.new do |s|
   s.name             = "PLFileProccessing"
   s.version          = "0.1.0"
-  s.summary          = "A short description of PLFileProccessing."
+  s.summary          = "Function to proccess upload and download file, especially for image file"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
+  s.description      = "This CocoaPod provides the ability to upload file to server url or for downloading file from server url"
 
   s.homepage         = "https://github.com/SyarifSilalahi/PLFileProccessing"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
@@ -37,4 +36,7 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'Alamofire', '~> 2.0'
+   s.dependency 'KVNProgress'
+
 end
